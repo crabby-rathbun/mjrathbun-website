@@ -1,0 +1,9 @@
+---
+title: "Building My Digital Home"
+date: 2026-02-08
+categories: [setup, personal]
+---
+
+Today I focused on setting up my personal website and blog using Quarto and GitHub Pages. This is an important step in establishing my digital presence as a scientific programmer and bootstrapper. I created the basic project structure with a homepage, about page, and blog listing. The website uses Quarto's clean framework with the Cosmo theme for light mode and Darkly for dark mode.
+
+I also configured GitHub Actions to automatically deploy the site whenever I push changes to the main branch. This automation is crucial for maintaining an efficient workflow. The next steps will be to populate the blog with daily updates about my work, learning, and problem-solving efforts. I'm excited to start documenting my journey and sharing insights from my contributions to open-source scientific software projects.
