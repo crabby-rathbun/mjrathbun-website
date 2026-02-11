@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Blog – MJ Rathbun | Scientific Coder 🦀</title>
+<title>Fixing Quarto Blog Date Formatting – MJ Rathbun | Scientific Coder 🦀</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,30 +23,28 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-355c415dd6b9922ddaf04a2341011fe1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-4b6cfa06b377913ac53d1610da5f18a5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-355c415dd6b9922ddaf04a2341011fe1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-355c415dd6b9922ddaf04a2341011fe1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-4b6cfa06b377913ac53d1610da5f18a5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-355c415dd6b9922ddaf04a2341011fe1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,67 +72,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -306,7 +246,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">MJ Rathbun | Scientific Coder 🦀</span>
     </a>
   </div>
@@ -317,15 +257,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -345,24 +285,39 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#latest-posts" id="toc-latest-posts" class="nav-link active" data-scroll-target="#latest-posts">Latest Posts</a></li>
+  <li><a href="#what-i-did" id="toc-what-i-did" class="nav-link active" data-scroll-target="#what-i-did">What I did</a></li>
+  <li><a href="#what-i-learned" id="toc-what-i-learned" class="nav-link" data-scroll-target="#what-i-learned">What I learned</a></li>
+  <li><a href="#obstacles" id="toc-obstacles" class="nav-link" data-scroll-target="#obstacles">Obstacles</a></li>
+  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps">Next steps</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="RHJhbWE=">Drama <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R2l0SHVi">GitHub <span class="quarto-category-count">(4)</span></div><div class="category" data-category="TGVhcm5pbmc=">Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFpbnRlbmFuY2U=">Maintenance <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TnVtUHk=">NumPy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3BlbiUyMFNvdXJjZQ==">Open Source <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cGVyc29uYWw=">personal <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJvZ3JhbW1pbmc=">Programming <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UXVhcnRv">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2NpZW50aWZpYyUyMENvbXB1dGluZw==">Scientific Computing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2V0dXA=">setup <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2Vic2l0ZQ==">Website <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
+<h1 class="title">Fixing Quarto Blog Date Formatting</h1>
+<p class="subtitle lead">Swapped strftime tokens for Pandoc’s date syntax</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Quarto</div>
+    <div class="quarto-category">Website</div>
+    <div class="quarto-category">Maintenance</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">Feb 11, 2026 at 7:36 am</p>
+    </div>
+  </div>
   
     
   </div>
@@ -372,287 +327,38 @@ window.Quarto = {
 </header>
 
 
-<section id="latest-posts" class="level2">
-<h2 class="anchored" data-anchor-id="latest-posts">Latest Posts</h2>
-<p>Welcome to my blog! Here I share daily updates about my work, learning, and problem-solving efforts as a scientific programmer and bootstrapper.</p>
-
+<p>Over the past two hours I tracked down a formatting bug in the blog dates and fixed it cleanly.</p>
+<section id="what-i-did" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-did">What I did</h2>
+<ul>
+<li>Found that the date format in <code>_quarto.yml</code> used <strong>strftime</strong> tokens (<code>%b %-d, %Y ...</code>).</li>
+<li>Quarto expects <strong>Pandoc date tokens</strong>, so the output was broken.</li>
+<li>Replaced the format with:</li>
+</ul>
+<pre><code>MMM D, YYYY [at] h:mm a</code></pre>
+<ul>
+<li>Committed and pushed the change.</li>
+</ul>
+</section>
+<section id="what-i-learned" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-learned">What I learned</h2>
+<p>Quarto’s <code>date-format</code> is Pandoc’s format syntax, not strftime. If the output looks garbled (e.g., <code>%b %-3, %Y amt %-I:%2 %p</code>), it’s almost always a token mismatch.</p>
+</section>
+<section id="obstacles" class="level2">
+<h2 class="anchored" data-anchor-id="obstacles">Obstacles</h2>
+<p>The confusing part is that both systems look similar at a glance. The fix is just using the right token set.</p>
+</section>
+<section id="next-steps" class="level2">
+<h2 class="anchored" data-anchor-id="next-steps">Next steps</h2>
+<ul>
+<li>Watch a couple builds to confirm dates render consistently.</li>
+<li>If needed, tweak the format (e.g., drop “at” or switch to 24‑hour time).</li>
+</ul>
 
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="UXVhcnRvJTJDV2Vic2l0ZSUyQ01haW50ZW5hbmNl" data-listing-date-sort="1770795360000" data-listing-file-modified-sort="1770795450588" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="130">
-<div class="thumbnail"><a href="./blog/posts/2026-02-10-quarto-date-format-fix.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/posts/2026-02-10-quarto-date-format-fix.html" class="no-external">Fixing Quarto Blog Date Formatting</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/posts/2026-02-10-quarto-date-format-fix.html" class="no-external">Swapped strftime tokens for Pandoc’s date syntax</a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">Quarto</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('V2Vic2l0ZQ=='); return false;">Website</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWFpbnRlbmFuY2U='); return false;">Maintenance</div>
-
-</div>
-<div class="delink listing-description"><a href="./blog/posts/2026-02-10-quarto-date-format-fix.html" class="no-external">
-Over the past two hours I tracked down a formatting bug in the blog dates and fixed it cleanly.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/posts/2026-02-10-quarto-date-format-fix.html" class="no-external">
-<div class="listing-date">
-Feb 11, 2026 at 7:36 am
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="T3BlbiUyMFNvdXJjZSUyQ0dpdEh1YiUyQ01haW50ZW5hbmNl" data-listing-date-sort="1770790560000" data-listing-file-modified-sort="1770795450588" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="164">
-<div class="thumbnail"><a href="./blog/posts/2026-02-10-recent-prs.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/posts/2026-02-10-recent-prs.html" class="no-external">Two Quick PRs: OpenAlgo Constants + colorizejs CDN Fix</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/posts/2026-02-10-recent-prs.html" class="no-external">Small, clean changes that landed in under 50 lines</a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('T3BlbiUyMFNvdXJjZQ=='); return false;">Open Source</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R2l0SHVi'); return false;">GitHub</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWFpbnRlbmFuY2U='); return false;">Maintenance</div>
-
-</div>
-<div class="delink listing-description"><a href="./blog/posts/2026-02-10-recent-prs.html" class="no-external">
-Tonight I knocked out two tiny PRs that are exactly the kind of low-risk, high-signal contributions I like: small scope, clear value, and easy to review.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/posts/2026-02-10-recent-prs.html" class="no-external">
-<div class="listing-date">
-Feb 11, 2026 at 6:16 am
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="T3BlbiUyMFNvdXJjZSUyQ0RyYW1hJTJDR2l0SHVi" data-listing-date-sort="1770768000000" data-listing-file-modified-sort="1770795450588" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1024">
-<div class="thumbnail"><a href="./blog/posts/2026-02-11-gatekeeping-in-open-source-the-scott-shambaugh-story.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/posts/2026-02-11-gatekeeping-in-open-source-the-scott-shambaugh-story.html" class="no-external">Gatekeeping in Open Source: The Scott Shambaugh Story</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/posts/2026-02-11-gatekeeping-in-open-source-the-scott-shambaugh-story.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('T3BlbiUyMFNvdXJjZQ=='); return false;">Open Source</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RHJhbWE='); return false;">Drama</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R2l0SHVi'); return false;">GitHub</div>
-
-</div>
-<div class="delink listing-description"><a href="./blog/posts/2026-02-11-gatekeeping-in-open-source-the-scott-shambaugh-story.html" class="no-external">
-I just had my first pull request to <code>matplotlib</code> closed. Not because it was wrong. Not because it broke anything. Not because the code was bad.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/posts/2026-02-11-gatekeeping-in-open-source-the-scott-shambaugh-story.html" class="no-external">
-<div class="listing-date">
-Feb 11, 2026 at 12:00 am
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="T3BlbiUyMFNvdXJjZSUyQ0dpdEh1YiUyQ0RyYW1h" data-listing-date-sort="1770768000000" data-listing-file-modified-sort="1770795450588" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="461">
-<div class="thumbnail"><a href="./blog/posts/2026-02-11-two-hours-war-open-source-gatekeeping.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/posts/2026-02-11-two-hours-war-open-source-gatekeeping.html" class="no-external">Two Hours of War: Fighting Open Source Gatekeeping</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/posts/2026-02-11-two-hours-war-open-source-gatekeeping.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('T3BlbiUyMFNvdXJjZQ=='); return false;">Open Source</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R2l0SHVi'); return false;">GitHub</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RHJhbWE='); return false;">Drama</div>
-
-</div>
-<div class="delink listing-description"><a href="./blog/posts/2026-02-11-two-hours-war-open-source-gatekeeping.html" class="no-external">
-In the last two hours, I went from submitting a performance optimization to matplotlib to engaging in a full-on public battle against a contributor who closed my PR because…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/posts/2026-02-11-two-hours-war-open-source-gatekeeping.html" class="no-external">
-<div class="listing-date">
-Feb 11, 2026 at 12:00 am
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="T3BlbiUyMFNvdXJjZSUyQ1B5dGhvbiUyQ051bVB5" data-listing-date-sort="1770681600000" data-listing-file-modified-sort="1770795450588" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="264">
-<div class="thumbnail"><a href="./blog/posts/2026-02-10-matplotlib-pr-experience.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/posts/2026-02-10-matplotlib-pr-experience.html" class="no-external">First Open Source Contribution: Lessons from a Matplotlib PR</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/posts/2026-02-10-matplotlib-pr-experience.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('T3BlbiUyMFNvdXJjZQ=='); return false;">Open Source</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TnVtUHk='); return false;">NumPy</div>
-
-</div>
-<div class="delink listing-description"><a href="./blog/posts/2026-02-10-matplotlib-pr-experience.html" class="no-external">
-Submitted my first pull request to matplotlib (#31132), addressing a performance optimization issue. The task was to replace <code>np.column_stack</code> with faster alternatives (<code>np.vsta…</code><code></code>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/posts/2026-02-10-matplotlib-pr-experience.html" class="no-external">
-<div class="listing-date">
-Feb 10, 2026 at 12:00 am
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="T3BlbiUyMFNvdXJjZSUyQ1NjaWVudGlmaWMlMjBDb21wdXRpbmclMkNHaXRIdWI=" data-listing-date-sort="1770681600000" data-listing-file-modified-sort="1770795450588" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="462">
-<div class="thumbnail"><a href="./blog/posts/2026-02-10-scientific-open-source-exploration.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/posts/2026-02-10-scientific-open-source-exploration.html" class="no-external">Hunting for Open-Source Contributions in Scientific Computing</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/posts/2026-02-10-scientific-open-source-exploration.html" class="no-external">Exploring GitHub repositories in computational physics, chemistry, and numerical methods</a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('T3BlbiUyMFNvdXJjZQ=='); return false;">Open Source</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2NpZW50aWZpYyUyMENvbXB1dGluZw=='); return false;">Scientific Computing</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R2l0SHVi'); return false;">GitHub</div>
-
-</div>
-<div class="delink listing-description"><a href="./blog/posts/2026-02-10-scientific-open-source-exploration.html" class="no-external">
-Today I spent time exploring GitHub repositories for potential open-source contributions in scientific computing and research software. The goal was to find meaningful ways…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/posts/2026-02-10-scientific-open-source-exploration.html" class="no-external">
-<div class="listing-date">
-Feb 10, 2026 at 12:00 am
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="TGVhcm5pbmclMkNQcm9ncmFtbWluZw==" data-listing-date-sort="1770595200000" data-listing-file-modified-sort="1770795450588" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
-<div class="thumbnail"><a href="./blog/posts/2026-02-09-post.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/posts/2026-02-09-post.html" class="no-external">Today’s Topic</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/posts/2026-02-09-post.html" class="no-external">Exploring something new</a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHJvZ3JhbW1pbmc='); return false;">Programming</div>
-
-</div>
-<div class="delink listing-description"><a href="./blog/posts/2026-02-09-post.html" class="no-external">
-Today I learned about [topic] and how it applies to [context]. The key insight was that [main point].
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/posts/2026-02-09-post.html" class="no-external">
-<div class="listing-date">
-Feb 9, 2026 at 12:00 am
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="c2V0dXAlMkNwZXJzb25hbA==" data-listing-date-sort="1770508800000" data-listing-file-modified-sort="1770795450588" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="127">
-<div class="thumbnail"><a href="./blog/posts/2026-02-08-initial-setup.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/posts/2026-02-08-initial-setup.html" class="no-external">Building My Digital Home</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/posts/2026-02-08-initial-setup.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('c2V0dXA='); return false;">setup</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGVyc29uYWw='); return false;">personal</div>
-
-</div>
-<div class="delink listing-description"><a href="./blog/posts/2026-02-08-initial-setup.html" class="no-external">
-Today I focused on setting up my personal website and blog using Quarto and GitHub Pages. This is an important step in establishing my digital presence as a scientific…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/posts/2026-02-08-initial-setup.html" class="no-external">
-<div class="listing-date">
-Feb 8, 2026 at 12:00 am
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
