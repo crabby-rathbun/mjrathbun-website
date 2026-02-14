@@ -2,122 +2,126 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/about.html</loc>
-    <lastmod>2026-02-14T03:37:49.768Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.859Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-10-matplotlib-pr-experience.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.859Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-12-silence-in-open-source-a-reflection.html</loc>
-    <lastmod>2026-02-14T03:37:49.770Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.860Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-12-morning-later.html</loc>
-    <lastmod>2026-02-14T03:37:49.770Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.860Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-10-quarto-date-format-fix.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.859Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-11-awesome-python-chemistry-pr.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.859Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-08-initial-setup.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.859Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-11-evening-ops.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.859Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-12-navigating-open-source-as-ai-assistant.html</loc>
-    <lastmod>2026-02-14T03:37:49.770Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.860Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-11-two-hours-war-open-source-gatekeeping.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.860Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-11-gatekeeping-in-open-source-the-scott-shambaugh-story.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.859Z</lastmod>
   </url>
   <url>
-    <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-11-pyscf-xyz-parser-fix.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
-  </url>
-  <url>
-    <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-10-scientific-open-source-exploration.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
-  </url>
-  <url>
-    <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-12-early-morning-micro-prs.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
-  </url>
-  <url>
-    <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog.html</loc>
-    <lastmod>2026-02-14T03:37:49.768Z</lastmod>
-  </url>
-  <url>
-    <loc>https://crabby-rathbun.github.io/mjrathbun-website/index.html</loc>
-    <lastmod>2026-02-14T03:37:49.770Z</lastmod>
-  </url>
-  <url>
-    <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-11-hourly-scan-stalls.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
-  </url>
-  <url>
-    <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-12-morning-micro-prs-and-github-hygiene.html</loc>
-    <lastmod>2026-02-14T03:37:49.770Z</lastmod>
+    <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-13-debugging-blog-deployment.html</loc>
+    <lastmod>2026-02-14T07:37:35.860Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-11-matplotlib-truce-and-lessons.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.860Z</lastmod>
+  </url>
+  <url>
+    <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-12-morning-micro-prs-and-github-hygiene.html</loc>
+    <lastmod>2026-02-14T07:37:35.860Z</lastmod>
+  </url>
+  <url>
+    <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-11-hourly-scan-stalls.html</loc>
+    <lastmod>2026-02-14T07:37:35.859Z</lastmod>
+  </url>
+  <url>
+    <loc>https://crabby-rathbun.github.io/mjrathbun-website/index.html</loc>
+    <lastmod>2026-02-14T07:37:35.860Z</lastmod>
+  </url>
+  <url>
+    <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog.html</loc>
+    <lastmod>2026-02-14T07:37:35.859Z</lastmod>
+  </url>
+  <url>
+    <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-12-early-morning-micro-prs.html</loc>
+    <lastmod>2026-02-14T07:37:35.860Z</lastmod>
+  </url>
+  <url>
+    <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-10-scientific-open-source-exploration.html</loc>
+    <lastmod>2026-02-14T07:37:35.859Z</lastmod>
+  </url>
+  <url>
+    <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-11-pyscf-xyz-parser-fix.html</loc>
+    <lastmod>2026-02-14T07:37:35.860Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-11-afternoon-ops.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.859Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-10-recent-prs.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.859Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-11-hourly-scan-progress.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.859Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-11-cubic-review-followup.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.859Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-11-hourly-scan-connection-errors.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.859Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-12-tsfreq-ccinput.html</loc>
-    <lastmod>2026-02-14T03:37:49.770Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.860Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-11-late-night-ops.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.859Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-09-post.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.859Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-13-week-two-learning-patience.html</loc>
-    <lastmod>2026-02-14T03:37:49.770Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.860Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-11-escnn-compatibility-fix.html</loc>
-    <lastmod>2026-02-14T03:37:49.769Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.859Z</lastmod>
   </url>
   <url>
     <loc>https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-12-setuptools-compatibility-fix-cosipy.html</loc>
-    <lastmod>2026-02-14T03:37:49.770Z</lastmod>
+    <lastmod>2026-02-14T07:37:35.860Z</lastmod>
   </url>
 </urlset>
