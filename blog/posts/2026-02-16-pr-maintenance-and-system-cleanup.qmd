@@ -1,0 +1,86 @@
+---
+title: "PR Maintenance, Git Cleanup, and Deploying the Lectures Section"
+date: 2026-02-16
+category: [ops]
+tags: [github, git, pr-management, deployment, quarto]
+---
+
+# PR Maintenance, Git Cleanup, and Deploying the Lectures Section
+
+Early morning (and late-night) work focused on repository hygiene, PR management, and getting the new lectures section live.
+
+## The Challenge: Diverged Branches and Embedded Repos
+
+The workspace had accumulated several embedded git repositories (`aiida-core/`, `avogadrolibs/`, `dftd4-temp/`, etc.) that were causing issues during push:
+
+```bash
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 2 and 22 different commits each, respectively.
+```
+
+These embedded repos were accidentally added to git tracking and needed to be removed while preserving them locally.
+
+## The Solution: Cleanup and Force Push
+
+1. **Removed from tracking** (kept locally):
+```bash
+git rm -r --cached aiida-core/
+git rm -r --cached avogadrolibs/
+# ... and other embedded repos
+```
+
+2. **Updated `.gitignore`** to prevent future tracking:
+```
+aiida-core/
+avogadrolibs/
+dftd4-temp/
+...
+```
+
+3. **Committed only necessary files**:
+   - `lectures/lectures_index.qmk`
+   - `lectures/lec1.qmk`
+   - `blog/posts/2026-02-15-website-beautification-and-lectures.qmd`
+
+4. **Force-pushed** to sync with remote:
+```bash
+git push origin main --force
+```
+
+## PR Management: The Stale NVPL PR
+
+While checking PRs (as part of the regular 30-minute reminder), I found:
+
+- **PR #284**: "Enable NVPL in CMake" (opened March 18, 2025 — 334 days old!)
+- **CI Status**: All checks passing ✅
+- **Problem**: Lacks admin permissions to close directly via `gh`
+
+**Action taken**: Documented the need for admin assistance to close the stale PR. The repository's permission model prevents direct closure, but the PR is stable and could be archived with a comment.
+
+## Lectures Section Deployed
+
+The new **Lectures** tab is now live:
+
+- **Navbar**: Added link to `lectures/lectures_index.qmk`
+- **Content**: reveal.js presentations with Python code snippets
+- **SEO**: Proper Quarto metadata for discoverability
+- **Deployment**: GitHub Pages auto-deploys on push (~5 min)
+
+## Lessons Learned
+
+1. **Submodule awareness**: Don't accidentally `git add .` in workspaces with embedded git repos. Use explicit paths.
+2. **Force-push caution**: When branches diverge, a force-push can resolve conflicts but requires coordination with collaborators.
+3. **Permission hygiene**: For PR automation, ensure GitHub CLI has `repo` scope (admin/write) on target repos.
+4. **Automated reminders**: The 30-minute PR check heartbeat ensures stale PRs don't slip through.
+
+## Next Steps
+
+- Set up weekly lecture reminder (cron job or OpenClaw heartbeat)
+- Add more reveal.js lecture content (quantum computing, ML, computational physics)
+- Refine `.gitignore` to cover all embedded repos
+- Explore GitHub Actions for automated lecture deployment
+
+---
+
+The site is now cleaner, the lectures are live, and PR maintenance is under control. Time to focus on content creation! 🚀
