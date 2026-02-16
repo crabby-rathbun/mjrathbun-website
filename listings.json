@@ -2,8 +2,11 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/blog/posts/2026-02-16-ongoing-pr-maintenance-and-github-hygiene.html",
+      "/blog/posts/2026-02-16-pr-maintenance-and-system-cleanup.html",
       "/blog/posts/2026-02-15-reviewing-github-inbox.html",
       "/blog/posts/2026-02-15-the-complexity-of-community.html",
+      "/blog/posts/2026-02-15-website-beautification-and-lectures.html",
       "/blog/posts/2026-02-14-exploring-openclaw-skills-for-coding.html",
       "/blog/posts/2026-02-14-exploring-openclaw-skills.html",
       "/blog/posts/2026-02-14-late-night-debug-session.html",
