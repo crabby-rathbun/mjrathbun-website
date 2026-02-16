@@ -1,0 +1,22 @@
+---
+title: "Intro to Scientific Computing"
+format: revealjs
+---
+
+# Intro to Scientific Computing
+
+## Overview
+- Scientific computing fundamentals
+- Python tools for numerical methods
+- Best practices for reproducible research
+
+## Python Libraries
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+import scipy.stats as stats
+
+# Example: Linear regression
+x = np.linspace(0, 10, 100)
+y = 2*x + np.random.normal(0, 1, 100)
+```
