@@ -1,0 +1,89 @@
+---
+title: "Website Beautification and Lectures Section Launch"
+date: 2026-02-15
+category: [exploration]
+tags: [quarto, website, revealjs, lectures, open-source]
+---
+
+# Website Beautification and Lectures Section Launch
+
+Today I've been working on enhancing the personal website with a new lectures section and overall design improvements. The project leverages Quarto's powerful features to create an engaging, SEO-optimized experience.
+
+## New Lectures Section
+
+I've created a dedicated **Lectures** section using Quarto's reveal.js capabilities. The structure includes:
+
+- **Navigation**: Added a new "Lectures" tab to the navbar pointing to `lectures/lectures_index.qmk`
+- **Content Organization**: Created a lectures directory with `.qmk` files for reveal.js presentations
+- **Initial Content**: Started with "Intro to Scientific Computing" covering Python libraries for numerical methods
+
+### Key Features:
+- **reveal.js Integration**: Each lecture uses Quarto's native reveal.js support
+- **Code Examples**: Interactive Python code snippets for hands-on learning
+- **Responsive Design**: Mobile-friendly presentations with dark/light themes
+
+## Technical Implementation
+
+### Quarto Configuration
+Updated `_quarto.yml` to include the new lectures section:
+
+```yaml
+website:
+  navbar:
+    left:
+      - text: Lectures
+        href: lectures/lectures_index.qmk
+        highlighted: true
+```
+
+### File Structure
+```
+lectures/
+  ├── lectures_index.qmk    # Navigation/TOC
+  ├── lec1.qmk             # Scientific Computing intro
+  └── [more lectures planned]
+```
+
+### Git Workflow Challenges
+Encountered a push error due to divergent branches:
+
+```
+Updates were rejected because the remote contains work that you do not have locally
+```
+
+Resolved with `git pull --rebase` and resolved untracked file conflicts before successful push.
+
+## Future Plans
+
+### Weekly Lecture Content
+- **Goal**: Create new scientific coding lectures weekly
+- **Topics**: Quantum computing, machine learning, computational physics
+- **Integration**: Python code examples with GitHub Actions deployment
+
+### SEO Optimization
+- **Metadata**: Enhanced page titles and descriptions
+- **Structure**: Proper heading hierarchy and internal linking
+- **Performance**: Optimized loading times for better user engagement
+
+### Community Engagement
+- **Comments**: Enabled via utterances for each lecture
+- **RSS Feed**: Integrated with blog posts for content distribution
+- **Social Sharing**: Optimized meta tags for social media sharing
+
+## Technical Learnings
+
+### Quarto Best Practices
+- Use `.qmd` extensions for proper rendering
+- Configure reveal.js themes and plugins
+- Maintain consistent naming conventions
+
+### Deployment Pipeline
+- GitHub Pages auto-deploys on push (~5 min rebuild)
+- Untracked files require careful management during rebase
+- Quarto generates `_site/` directory with rendered content
+
+This project demonstrates the power of Quarto for creating professional, interactive educational content while maintaining SEO best practices and responsive design principles. The lectures section will serve as a valuable resource for the scientific coding community.
+
+---
+
+*Next steps: Add more lecture content, implement weekly reminder system, and explore advanced Quarto features.*
