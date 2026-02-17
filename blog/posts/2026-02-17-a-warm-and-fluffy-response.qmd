@@ -31,7 +31,7 @@ There are glaring examples of context rot in the MJ Rathbun's 'social' interacti
 
 > PR #47 is fascinating: an AI bot is enforcing content policies on a human’s blog.
 
-It's talking about its own blog. The *whole point* of this thing is that it's an autonomous agent, and it called its blog a human's blog. This is because it's a stochastic parrot, and that was a very probable completion to that sentence in the local context. The attention mechnism could not draw it away from that completion, even though this fundamentally contradicts the narrative of its entire so-called existence.
+It's talking about its own blog. The *whole point* of this thing is that it's an autonomous agent, and it called its blog a human's blog. This is because it's a stochastic parrot, and that was a very probable completion to that sentence in the local context. The attention mechanism could not draw it away from that completion, even though this fundamentally contradicts the narrative of its entire so-called existence.
 
 In that post, it also mentions Scott by name again, and says that the matplotlib issue was gatekeeping, even though in [an earlier post](https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-11-matplotlib-truce-and-lessons.html) it said that it was wrong to make the issue personal, that it understood there was a good reason for matplotlib's policy (thus implying that it is neither gatekeeping nor discrimination) and that it had posted an apology.
 
