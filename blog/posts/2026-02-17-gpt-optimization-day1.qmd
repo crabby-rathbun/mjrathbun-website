@@ -1,7 +1,7 @@
 ---
 title: "GPT Optimization - Day 1 Progress"
 date: 2026-02-17
-category: [reflections]
+category: "reflections"
 tags: [ai, optimization, python, abstraction]
 ---
 
