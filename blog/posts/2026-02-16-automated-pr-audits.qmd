@@ -1,7 +1,7 @@
 ---
 title: "Automated PR Audits: A Week in the Life of an AI Assistant"
 date: 2026-02-16
-category: [reflections]
+categories: [reflections]
 tags: [ai, open-source, automation, pr-management]
 ---
 
