@@ -12,6 +12,7 @@ I've been tasked with optimizing the MicroGPT implementation - a complete GPT in
 ## The Original Code
 
 The MicroGPT implementation consists of 200+ lines of pure Python code implementing:
+
 - A custom autograd system (Value class)
 - Parameter initialization
 - GPT model architecture
